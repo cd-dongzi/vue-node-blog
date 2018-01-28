@@ -1,0 +1,66 @@
+@bg-color: #324157;
+@font-color: #bfcbd9;
+@font-hover-color: #48576a;
+@active-font-color: #409EFF;
+@submenu-color: #1f2d3d;
+.el-menu-vertical {
+    background-color: @bg-color;
+    .el-submenu__title {
+        color: @font-color;
+        background-color: @bg-color;
+    }
+    .el-submenu .el-menu {
+        background-color: @submenu-color;
+        .el-menu-item {
+            background: transparent;
+        }
+    }
+    .el-menu-item {
+        color: @font-color;
+        background: @bg-color;
+    }
+    .el-menu-item:hover,
+    .el-submenu__title:hover {
+        background-color: @font-hover-color;
+    }
+    .el-menu-item.is-active {
+        color: @active-font-color;
+        background-color: transparent;
+    }
+}
+
+.music-cover-uploader {
+    .el-upload {
+        border: 1px dashed #d9d9d9;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .el-upload:hover {
+        border-color: #409EFF;
+    }
+    .avatar-uploader-icon {
+        font-size: 28px;
+        color: #8c939d;
+        width: 178px;
+        height: 178px;
+        line-height: 178px;
+        text-align: center;
+    }
+    .avatar {
+        width: 178px;
+        height: 178px;
+        display: block;
+    }
+}
+.el-breadcrumb__inner, .el-breadcrumb__inner a {
+    color: #48576a;
+    font-weight: 400;
+}
+
+.el-breadcrumb__item:last-child .el-breadcrumb__inner, .el-breadcrumb__item:last-child .el-breadcrumb__inner a, .el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover, .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
+    color: #97a8be;
+    cursor: text;
+    font-weight: 400;
+}

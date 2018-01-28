@@ -1,0 +1,18 @@
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    opacity: .8;
+    background: #c1866a;
+    border-radius: 4px;
+    transition: all .5s;
+}
