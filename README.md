@@ -1,6 +1,6 @@
 # Vue + Node + Mongodb 开发一个完整博客流程
 
-##本地开发:
+## 本地开发:
 后台管理: localhost:8090
 
 web端: localhost:8080
